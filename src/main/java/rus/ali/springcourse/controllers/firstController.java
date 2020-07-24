@@ -14,4 +14,9 @@ public class firstController {
     public String goodByePage(){
         return "first/goodbye";
     }
+
+    @GetMapping("/mainPage")
+    public String toMain(){
+        return "first/mainPage";
+    }
 }
