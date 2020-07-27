@@ -61,7 +61,7 @@ public class firstController {
 
         model.addAttribute("result", result);
 
-        return "";
+        return "first/calc";
     }
 
     @GetMapping("/mainpage")
