@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Hello</title>
@@ -7,5 +7,7 @@
 <body>
 Hello from hello.html
 <a href="/goodbye.html">Move to goodbye</a> or <a href="/exit.html">Move to exit</a>
+
+<p th:text="${message}"></p>
 </body>
 </html>
